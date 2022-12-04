@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+/* RESET CSS */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* Font size 10px => 10 / 16 =  0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  /* Now 1rem = 10px */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: black;
+}
+
+/* GENERAL */
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--component {
+  display: flex;
+  height: 41.6rem;
+  width: 41.2rem;
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 30px;
+}
+
+/* DEBUG */
+
+.d1 {
+  border: 1px solid red;
+}
+
+.d2 {
+  border: 1px solid green;
+}

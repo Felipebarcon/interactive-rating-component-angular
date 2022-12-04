@@ -1,0 +1,79 @@
+<div class="container">
+  <div class="card--component">
+    <div class="component--content">
+      <div class="component--star">
+        <img
+          src="/assets/images/icon-star.svg"
+          alt="star icon"
+          class="icon-star"
+        />
+      </div>
+      <div class="component--title">
+        <h2>How did we do?</h2>
+      </div>
+      <div class="component--paragraph">
+        <p>
+          Please let us know how we did with your support request. All
+          feedback is appreciated to help us improve our offering!
+        </p>
+      </div>
+      <div class="component--rating">
+        <div class="component--rating--num">
+          <input
+            type="radio"
+            name="num"
+            id="1"
+            value="1"
+            (change)="onChange($event)"
+          >
+          <label for="1">1</label>
+          <input
+            type="radio"
+            name="num"
+            id="2"
+            value="2"
+            (change)="onChange($event)"
+          >
+          <label for="2">2</label>
+          <input
+            type="radio"
+            name="num"
+            id="3"
+            value="3"
+            (change)="onChange($event)"
+          >
+          <label for="3">3</label>
+          <input
+            type="radio"
+            name="num"
+            id="4"
+            value="4"
+            (change)="onChange($event)"
+          >
+          <label for="4">4</label>
+          <input
+            type="radio"
+            name="num"
+            id="5"
+            value="5"
+            (change)="onChange($event)"
+          >
+          <label for="5">5</label>
+        </div>
+      </div>
+      <div class="component--btn">
+        <button type="submit" (click)="goToThankYouMessage()">Submit
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    >Frontend Mentor</a
+    >. Coded by <a href="https://github.com/Felipebarcon">Felipe Barcon</a>.
+  </div>
+</footer>
